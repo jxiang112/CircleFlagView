@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleFlagView">
+        <attr name="bg_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_over_width_size" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="ellipsis_text" format="string"/>
+        <attr name="show_mode">
+            <enum name="text" value="0"/>
+            <enum name="circle_dot" value="1"/>
+        </attr>
+        <attr name="text_type">
+            <enum name="number" value="0"/>
+            <enum name="text" value="1"/>
+        </attr>
+        <attr name="max_show_number" format="integer"/>
+    </declare-styleable>
+</resources>
